@@ -12,6 +12,8 @@
 		D3D7FDDF1DA0EDD600185E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D7FDDD1DA0EDD600185E66 /* Main.storyboard */; };
 		D3D7FDE11DA0EDD600185E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D7FDE01DA0EDD600185E66 /* Assets.xcassets */; };
 		D3D7FDE41DA0EDD600185E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D7FDE21DA0EDD600185E66 /* LaunchScreen.storyboard */; };
+		D3E1CE471DA40E87000D1D28 /* BitBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E1CE461DA40E87000D1D28 /* BitBold.ttf */; };
+		D3E1CE491DA412BE000D1D28 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3E1CE481DA412BE000D1D28 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D3D7FDE01DA0EDD600185E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D7FDE31DA0EDD600185E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D7FDE51DA0EDD600185E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E1CE461DA40E87000D1D28 /* BitBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BitBold.ttf; sourceTree = "<group>"; };
+		D3E1CE481DA412BE000D1D28 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D3D7FDE01DA0EDD600185E66 /* Assets.xcassets */,
 				D3D7FDE21DA0EDD600185E66 /* LaunchScreen.storyboard */,
 				D3D7FDE51DA0EDD600185E66 /* Info.plist */,
+				D3E1CE461DA40E87000D1D28 /* BitBold.ttf */,
+				D3E1CE481DA412BE000D1D28 /* btn.wav */,
 			);
 			path = "48-RetroCalculator";
 			sourceTree = "<group>";
@@ -124,9 +130,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E1CE491DA412BE000D1D28 /* btn.wav in Resources */,
 				D3D7FDE41DA0EDD600185E66 /* LaunchScreen.storyboard in Resources */,
 				D3D7FDE11DA0EDD600185E66 /* Assets.xcassets in Resources */,
 				D3D7FDDF1DA0EDD600185E66 /* Main.storyboard in Resources */,
+				D3E1CE471DA40E87000D1D28 /* BitBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				D3D7FDEA1DA0EDD600185E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

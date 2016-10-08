@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +17,51 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="eDY-6U-Gps"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="K9k-SG-a0Q">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="Ag9-jq-m5r"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="kWM-fO-zD1">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="UMe-61-gDB"/>
+                                    <constraint firstAttribute="height" constant="55" id="Vqs-bw-hIo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="gV9-Dc-p22">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="245" id="3Kq-jB-dtc"/>
+                                    <constraint firstAttribute="height" constant="131" id="tt2-ZV-NEk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kWM-fO-zD1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4sj-et-lzR"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="eDY-6U-Gps" secondAttribute="bottom" id="JC4-k0-rwP"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="K9k-SG-a0Q" secondAttribute="bottom" id="NPM-qD-rIB"/>
+                            <constraint firstItem="kWM-fO-zD1" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="50" id="OY0-LN-zTI"/>
+                            <constraint firstAttribute="trailing" secondItem="eDY-6U-Gps" secondAttribute="trailing" id="RaH-Dm-dcC"/>
+                            <constraint firstItem="K9k-SG-a0Q" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Rfc-MK-EFl"/>
+                            <constraint firstItem="gV9-Dc-p22" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TC7-aH-gvQ"/>
+                            <constraint firstItem="eDY-6U-Gps" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="VUS-PG-KZk"/>
+                            <constraint firstAttribute="trailing" secondItem="K9k-SG-a0Q" secondAttribute="trailing" id="dCT-tk-PIA"/>
+                            <constraint firstItem="eDY-6U-Gps" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eCK-W2-gja"/>
+                            <constraint firstItem="gV9-Dc-p22" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="h5g-hq-wOE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="50.625" y="373.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Retro-Calc" width="755" height="111"/>
+        <image name="launchbg" width="1433" height="957"/>
+        <image name="launchground" width="999" height="225"/>
+        <image name="robot" width="786" height="402"/>
+    </resources>
 </document>
